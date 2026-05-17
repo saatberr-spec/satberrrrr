@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Arise - Premier Agency Landing Page Template",
-  description: "Elevate your agency's online presence with Arise, a meticulously crafted Framer template for creative agencies.",
+  title: "راس - وكالة التسويق الرقمي الطبي",
+  description: "خدمات تسويق رقمي متكاملة متخصصة في القطاع الطبي. من البداية إلى التمكين - نأخذ بيدك نحو النجاح.",
 };
 
 export default function RootLayout({
@@ -12,7 +12,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="ar" dir="rtl">
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />

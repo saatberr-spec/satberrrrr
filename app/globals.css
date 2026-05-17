@@ -12,6 +12,8 @@ html, body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  direction: rtl;
+  text-align: right;
 }
 
 a {
@@ -27,4 +29,6 @@ button {
 
 input, textarea {
   font-family: inherit;
+  direction: rtl;
+  text-align: right;
 }
