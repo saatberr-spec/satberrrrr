@@ -24,7 +24,7 @@ export default function PartnersSection() {
 
         {/* Main stat */}
         <div className="bg-gradient-to-r from-slate-800 via-slate-800 to-slate-900 rounded-2xl p-12 border border-blue-500 border-opacity-20 text-center mb-16">
-          <p className="text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-blue-500 mb-4">
+          <p className="text-6xl font-bold text-blue-300 mb-4">
             {content.partners.count}
           </p>
           <p className="text-xl text-gray-300">

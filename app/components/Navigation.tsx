@@ -12,7 +12,7 @@ export default function Navigation() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <a href="#" className="flex items-center gap-2">
-            <div className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-blue-500">
+            <div className="text-2xl font-bold text-blue-300">
               {content.company.name}
             </div>
           </a>

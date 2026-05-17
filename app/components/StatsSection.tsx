@@ -30,7 +30,7 @@ export default function StatsSection() {
               className="group text-center bg-gradient-to-b from-slate-800 to-slate-900 rounded-xl p-8 border border-blue-500 border-opacity-20 hover:border-opacity-40 transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/20 hover:-translate-y-2"
             >
               {/* Number */}
-              <div className="text-5xl lg:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-blue-500 mb-4 group-hover:scale-110 transition-transform">
+              <div className="text-5xl lg:text-6xl font-bold text-blue-300 mb-4 group-hover:scale-110 transition-transform">
                 {stat.number}
               </div>
 

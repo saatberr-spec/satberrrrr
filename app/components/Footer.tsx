@@ -15,7 +15,7 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-8 mb-12">
           {/* Company Info */}
           <div>
-            <h3 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-blue-500 mb-4">
+            <h3 className="text-2xl font-bold text-blue-300 mb-4">
               {content.company.name}
             </h3>
             <p className="text-gray-400 text-sm leading-relaxed mb-4">

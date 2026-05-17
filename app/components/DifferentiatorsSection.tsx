@@ -31,7 +31,7 @@ export default function DifferentiatorsSection() {
             >
               {/* Number badge */}
               <div className="flex items-center justify-between mb-4">
-                <div className="text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-blue-500 opacity-60 group-hover:opacity-100 transition-opacity">
+                <div className="text-5xl font-bold text-blue-300 opacity-60 group-hover:opacity-100 transition-opacity">
                   {String(index + 1).padStart(2, '0')}
                 </div>
                 <div className="w-12 h-12 rounded-full bg-gradient-to-br from-blue-600 to-blue-700 flex items-center justify-center opacity-80 group-hover:opacity-100 transition-opacity">

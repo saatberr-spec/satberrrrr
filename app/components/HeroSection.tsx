@@ -25,10 +25,10 @@ export default function HeroSection() {
 
           {/* Tagline */}
           <div className="space-y-4">
-            <p className="text-3xl sm:text-4xl lg:text-5xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-blue-200 to-blue-400">
+            <p className="text-3xl sm:text-4xl lg:text-5xl font-semibold text-blue-300">
               {content.company.tagline}
             </p>
-            <p className="text-base sm:text-lg text-blue-100 max-w-2xl mx-auto">
+            <p className="text-base sm:text-lg text-blue-200 max-w-2xl mx-auto">
               {content.company.specialty}
             </p>
           </div>
